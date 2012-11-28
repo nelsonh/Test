@@ -18,6 +18,7 @@
 		4451E5E01665B6E4007E0C8B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4451E5DF1665B6E4007E0C8B /* Default-568h@2x.png */; };
 		4451E5E31665B6E4007E0C8B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4451E5E11665B6E4007E0C8B /* MainStoryboard.storyboard */; };
 		4451E5E61665B6E4007E0C8B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4451E5E51665B6E4007E0C8B /* ViewController.m */; };
+		4451E5ED1665B7A9007E0C8B /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4451E5EC1665B7A9007E0C8B /* CFNetwork.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		4451E5E21665B6E4007E0C8B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		4451E5E41665B6E4007E0C8B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		4451E5E51665B6E4007E0C8B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4451E5EC1665B7A9007E0C8B /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4451E5ED1665B7A9007E0C8B /* CFNetwork.framework in Frameworks */,
 				4451E5CA1665B6E4007E0C8B /* UIKit.framework in Frameworks */,
 				4451E5CC1665B6E4007E0C8B /* Foundation.framework in Frameworks */,
 				4451E5CE1665B6E4007E0C8B /* CoreGraphics.framework in Frameworks */,
@@ -56,6 +59,7 @@
 		4451E5BA1665B6E4007E0C8B = {
 			isa = PBXGroup;
 			children = (
+				4451E5EC1665B7A9007E0C8B /* CFNetwork.framework */,
 				4451E5CF1665B6E4007E0C8B /* SocketTest */,
 				4451E5C81665B6E4007E0C8B /* Frameworks */,
 				4451E5C61665B6E4007E0C8B /* Products */,

@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<NSStreamDelegate>
+{
+    NSInputStream *inputStram;
+    NSOutputStream *outputStream;
+}
 
 @end
